@@ -1,0 +1,130 @@
+body{
+  margin:0;
+  background:#04162b;
+  font-family:Arial;
+  color:white;
+}
+
+.container{
+  padding:15px;
+}
+
+h1{
+  font-size:22px;
+  margin-bottom:15px;
+}
+
+.balance{
+  background:#2be37d;
+  padding:18px;
+  border-radius:18px;
+  margin-top:10px;
+}
+
+.balance p{
+  font-size:15px;
+  margin:0;
+}
+
+.balance h2{
+  font-size:28px;
+  margin-top:10px;
+}
+
+.info{
+  background:#13233f;
+  padding:18px;
+  border-radius:18px;
+  margin-top:15px;
+  text-align:center;
+  color:#39ff88;
+  font-size:17px;
+  line-height:1.4;
+}
+
+.cards{
+  display:flex;
+  gap:12px;
+  margin-top:15px;
+}
+
+.card{
+  flex:1;
+  background:#13233f;
+  padding:18px;
+  border-radius:18px;
+}
+
+.card p{
+  font-size:15px;
+}
+
+.card h3{
+  font-size:22px;
+  margin-top:10px;
+}
+
+button{
+  width:100%;
+  padding:18px;
+  border:none;
+  border-radius:18px;
+  margin-top:18px;
+  background:#22d7a1;
+  color:white;
+  font-size:20px;
+}
+
+.progress{
+  width:100%;
+  height:12px;
+  background:#1d314d;
+  border-radius:20px;
+  margin-top:15px;
+  overflow:hidden;
+}
+
+#bar{
+  width:0%;
+  height:100%;
+  background:#2be37d;
+}
+
+#message{
+  font-size:18px;
+  margin-top:15px;
+}
+
+h2{
+  font-size:20px;
+  margin-top:20px;
+}
+
+.modes{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:10px;
+}
+
+.modes button{
+  width:auto;
+  padding:14px 18px;
+  background:#33435e;
+  font-size:18px;
+  margin-top:0;
+}
+
+.form{
+  margin-top:20px;
+}
+
+.form input{
+  width:100%;
+  padding:16px;
+  margin-bottom:15px;
+  border:none;
+  border-radius:14px;
+  font-size:17px;
+  box-sizing:border-box;
+}
